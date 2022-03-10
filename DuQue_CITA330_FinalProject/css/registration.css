@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+/* Registration CSS */
+
+/*header*/
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+    background-color: white;
+    /*position: absolute;
+    bottom: 160px;*/
+}
+/* Logo placeholder*/
+#logo {
+	float: left;
+	padding-bottom: 10px;
+	margin-left: 40px;
+    display: flex; background-color: #FFF;
+    flex-direction: row;
+    justify-content: left;
+}
+/* div for Links in header */
+#headerLinks {
+	float: right;
+	width: calc( 100% - 139px );
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(255,255,255,1.00);
+}
+#headerLinks img {
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+/* Links in header */
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(146,146,146,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+#share-options .container {
+    background-color: #F9EDEC;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+#share-options .container-signin {
+    background-color: #F9EDEC;
+    width: 50%;
+    margin-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+#share-options .container .registerbtn {
+    width: 150px;
+    height: 50px;
+    background-color: #F9EDEC;
+    font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-weight: bold;
+    text-align: center;
+} 
+#share-options .container .signinbtn {
+    width: 150px;
+    height: 50px;
+    background-color: #F9EDEC;
+    font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px; 
+    font-weight: bold;
+    text-align: center;
+}
+#share-options .container .registerbtn:hover {
+	color: rgba(107,97,97,1.00);
+	text-decoration: none;
+}
+#share-options .container .signinbtn:hover {
+	color: rgba(107,97,97,1.00);
+	text-decoration: none;
+} 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;  
+}
+label {
+    font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 14px;
+	font-weight: bold;
+    text-align: right;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+label {
+	float: left;
+	text-align: right;
+	width: 10em;
+	padding-right: 1em;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 2em;
+}
+
+input[type="submit"]{ margin-left: 0;
+    width: 150px;
+    height: 50px;
+    background-color: #F9EDEC;
+    font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-weight: bold;
+    text-align: center;
+    float: right;
+}	
+input[type="reset"] {
+    margin: 0;
+    width: 150px;
+    height: 50px;
+    background-color: #F9EDEC;
+    font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-weight: bold;
+    text-align: center;
+    float: right;
+}
+input[type="submit"]:hover {
+    color: rgba(107,97,97,1.00);
+	text-decoration: none;
+}
+input[type="reset"]:hover {
+    color: rgba(107,97,97,1.00);
+	text-decoration: none;
+}
+form {
+	padding: 3em;
+}
